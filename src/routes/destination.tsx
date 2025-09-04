@@ -1,3 +1,4 @@
+import DestinationPage from '@/pages/Destination'
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/destination')({
@@ -5,5 +6,9 @@ export const Route = createFileRoute('/destination')({
 })
 
 function Destination() {
-  return <div>Hello "/destination"!</div>
+  return (
+    <div>
+      <DestinationPage />
+    </div>
+  )
 }
