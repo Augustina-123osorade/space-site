@@ -42,7 +42,7 @@ export const NavBar = () => {
       </div>
 
       {isOpen && (
-        <div className="fixed top-0 right-0 w-2/3 h-full bg-white/5 backdrop-blur-lg border-l border-white/25 flex flex-col gap-6 p-8 lg:hidden">
+        <div className="fixed top-0 right-0 w-2/3 h-full bg-white/5 backdrop-blur-lg border-l border-white/25 flex flex-col gap-6 p-8 lg:hidden text-white font-barlowCondensed ">
             <button
             className="self-end p-2"
             onClick={() => setIsOpen(false)}
