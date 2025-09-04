@@ -96,7 +96,7 @@ export default function TechnologyPage() {
             <div className="flex flex-col gap-4 lg:items-start lg:text-start  lg:py-5">
               <h4 className="text-white">THE TERMINOLOGY</h4>
               <h3 className="text-gray-300 font-light text-3xl ">{technology.name}</h3>
-              <p className="text-blue-300 font-barlow max-w-lg">
+              <p className="text-[#D0D6F9] font-barlow max-w-lg">
                 {technology.description}
               </p>
             </div>

@@ -78,7 +78,7 @@ export default function DestinationPage() {
                   onClick={() => setActive(key as keyof typeof destinations)}
                   className={`pb-2 border-b-2 transition ${
                     active === key
-                      ? "border-white text-blue-300 font-balowCondensed"
+                      ? "border-white text-[#D0D6F9] font-balowCondensed"
                       : "border-transparent text-gray-400 hover:text-white"
                   }`}
                 >
@@ -88,18 +88,18 @@ export default function DestinationPage() {
             </div>
             <div className="flex flex-col gap-4 max-w-lg border-b  border-white/25 pb-8  ">
               <h2 className="text-white font-bellefair font-thin tracking-widest text-5xl">{destination.title}</h2>
-              <p className="text-blue-300 font-barlow">{destination.description}</p>
+              <p className="text-[#D0D6F9] font-barlow">{destination.description}</p>
             </div>
             <div >
               <div className="flex flex-col gap-2 lg:flex-row lg:gap-20 lg:justify-start">
                 <div className="flex flex-col gap-2">
-                  <p className="text-blue-300 font-barlowCondensed ">AVG. DISTANCE</p>
+                  <p className="text-[#D0D6F9] font-barlowCondensed ">AVG. DISTANCE</p>
                   <p className="text-white font-bellefair text-2xl">
                     {destination.distance}
                   </p>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <p className="text-blue-300 font-barlowCondensed">EST. TRAVEL TIME</p>
+                  <p className="text-[#D0D6F9] font-barlowCondensed">EST. TRAVEL TIME</p>
                   <p className="text-white font-bellefair text-2xl">
                     {destination.travel}
                   </p>

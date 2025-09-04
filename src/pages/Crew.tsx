@@ -66,7 +66,7 @@ export default function CrewPage() {
               {crew.name}
             </h2>
           </div>
-          <p className="text-blue-300 font-barlow max-w-lg">{crew.bio}</p>
+          <p className="text-[#D0D6F9] font-barlow max-w-lg">{crew.bio}</p>
           <div className="flex gap-4 justify-center">
             {Object.keys(crewMembers).map((key) => (
               <button

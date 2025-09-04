@@ -19,9 +19,9 @@ export default function HomePage() {
       />
         <div className="flex flex-col justify-center text-center items-center gap-20 lg:flex-row lg:items-start lg:text-start  lg:gap-50  md:p-30  ">
         <div className="max-w-lg ">
-          <p className="tracking-widest text-sm text-blue-300 font-barlow lg:text-2xl">SO, YOU WANT TO TRAVEL TO</p>
+          <p className="tracking-widest text-sm text-[#D0D6F9] font-barlow lg:text-2xl">SO, YOU WANT TO TRAVEL TO</p>
           <h1 className="mt-4 text-5xl sm:text-7xl text-white lg:text-8xl font-bellefair tracking-widest font-light">SPACE</h1>
-          <p className="mt-6  leading-relaxed text-sm text-blue-300 font-barlow ">
+          <p className="mt-6  leading-relaxed text-sm text-[#D0D6F9] font-barlow ">
             Let’s face it; if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.
             Well sit back, and relax because we’ll give you a truly out of this
