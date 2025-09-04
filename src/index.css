@@ -1,6 +1,25 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@font-face {
+  font-family: 'Bellefair';
+  src: url("public/fonts/Bellefair-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Barlow';
+  src: url("public/fonts/Barlow-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("public/fonts/Barlow-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -39,6 +58,9 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --font-barlow: 'Barlow', sans-serif;
+  --font-barlowCondensed: 'Barlow Condensed', sans-serif;
+  --font-bellefair: 'Bellefair', sans-serif;
 }
 
 :root {

@@ -78,7 +78,7 @@ export default function DestinationPage() {
                   onClick={() => setActive(key as keyof typeof destinations)}
                   className={`pb-2 border-b-2 transition ${
                     active === key
-                      ? "border-white text-[#D0D6F9] font-balowCondensed"
+                      ? "border-white text-[#D0D6F9] font-barlowCondensed"
                       : "border-transparent text-gray-400 hover:text-white"
                   }`}
                 >
